@@ -1,5 +1,5 @@
 import bpy
-import pandas as pd
+import pandas as pd #only needed if reading points from a csv
 import numpy as np
 
 def constructCurve(coords_list):
@@ -69,10 +69,14 @@ def cameraTrack():
     
 
 ###########
+#can use this line if writing points within python, otherwise use the next two
+coords_list = ([0,-5,2],[-3.5,0,1],[0,1,0],[2,3,-1],[2,7,-1],[0.5,6,0])
+
 #read the csv containing our points
-coords_list = pd.read_csv('/Users/nc7172/Downloads/points1.csv', header=None)
+#coords_list = pd.read_csv('/Users/xxxxxx/Downloads/points.csv', header=None)
+
 #convert the csv to a list so that it can be read by our constructCurve function
-coords_list = coords_list.values.tolist()
+#coords_list = coords_list.values.tolist()
 
 #construct the curve with our points
 constructCurve(coords_list)
