@@ -15,3 +15,5 @@ In this handbook, we'll be going over how to make a camera follow a spline's mov
 To accomplish these four steps, we can use two different, yet intertwined approaches, one exclusively in Blender, and the other using Python for automation.
 
 The first approach in Blender will manually go through each of the four steps. The second, in Python, will automate steps one and three (generating a spline from a csv of points), but still have the option to complete steps two and four in Blender if needed.
+
+testing 7/26/24
