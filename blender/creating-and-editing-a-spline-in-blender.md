@@ -80,6 +80,16 @@ By default, Blender makes the interpolation between curves 'Aligned' (though the
 
 <figure><img src="../.gitbook/assets/image (24).png" alt="" width="311"><figcaption></figcaption></figure>
 
+#### Drawing A Spline
+
+We can draw in a spline object if we'd like. To do so, simply select a spline object (or add one into the scene), and Tab into Edit Mode. Then, select the "Draw" option from the left menu:
+
+<figure><img src="../.gitbook/assets/image (58).png" alt="" width="102"><figcaption></figcaption></figure>
+
+From there, you'll see a pen object appear when you hover over the 3D viewport. You can draw in a spline object by simply dragging your cursor across the screen. Once you let go of the cursor, a new spline will appear - but it's still connected to the object you used to go into Edit Mode. To separate it, simply press P and select "Separate" (with the new spline points selected). Now you'll have two separate spline objects, one of which was drawn in:
+
+<figure><img src="../.gitbook/assets/image (60).png" alt="" width="375"><figcaption></figcaption></figure>
+
 #### Editing the whole object
 
 If we'd just like to move all points or scale the curve, we can easily do this through object mode.&#x20;
